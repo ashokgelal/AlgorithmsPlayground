@@ -6,6 +6,10 @@ func sort(data: [Int]) -> [Int]{
     var input = NSMutableArray(array: data) as NSArray as! [Int]
     
     func swapAtIndex(indx: Int, withIndex: Int) {
+        if indx == withIndex {
+            return
+        }
+        
         var temp = input[indx]
         input[indx] = input[withIndex]
         input[withIndex] = temp
