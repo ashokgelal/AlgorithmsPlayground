@@ -1,4 +1,4 @@
-// ### INSERTION SORT ###
+// ### SELECTION SORT ###
 
 import Foundation
 
@@ -53,5 +53,6 @@ sequenceEquals(answer, sorted)
 
 
 // O(1) extra space (ignoring input copy)
-// O(n^2) comparisons and swaps
-// ideal when data is nearly sorted or the problem size is small
+// O(n^2) comparisons
+// O(n) swaps
+// ideal when the cost of swapping is high
