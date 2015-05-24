@@ -21,20 +21,6 @@ func sort(data: [Int]) -> [Int] {
     return input
 }
 
-func sequenceEquals(arr1: [Int], arr2: [Int]) -> Bool {
-    if arr1.count < arr2.count {
-        return false
-    }
-    var match = true
-    for (index, _) in enumerate(arr1) {
-        if arr1[index] != arr2[index] {
-            match = false
-            break
-        }
-    }
-    return match
-}
-
 let data = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
 let answer = [2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50]
 
