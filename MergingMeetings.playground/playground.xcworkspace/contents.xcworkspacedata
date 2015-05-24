@@ -4,7 +4,4 @@
    <FileRef
       location = "group:../../Documents/Projects/Practice/AlgorithmsPlayground/HighestProductOf3.playground">
    </FileRef>
-   <FileRef
-      location = "group:../MergingMeetings.playground">
-   </FileRef>
 </Workspace>
